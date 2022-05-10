@@ -1,0 +1,32 @@
+{
+  "keys": {
+    "accessKey": "042405D1D20C5C9FE6FB63420387809A888975E7",
+    "secretKey": "26E0D7E42D75E4FD77F66959CE82E2AC92BBBD7F"
+  },
+  "applicationId": "610f0ab4441fbf001d781188",
+  "filesSrc": [ 
+	   "./build/**/*.js"
+  ],
+  "filesDest": "./",
+  "params": [
+    {
+      "name": "duplicateLiteralsRemoval",
+      "options": {
+        "mode": []
+      }
+    },
+    {
+      "name": "identifiersRenaming",
+      "options": {
+        "mode": "SAFEST"
+      }
+    }
+  ],
+  "areSubscribersOrdered": false,
+  "useRecommendedOrder": true,
+  "jscramblerVersion": "7.1",
+  "tolerateMinification": true,
+  "profilingDataMode": "off",
+  "useAppClassification": true,
+  "browsers": {}
+}
